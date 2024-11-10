@@ -1,10 +1,11 @@
-package kh.edu.rupp.ite.eresystem
+package kh.edu.rupp.ite.eresystem.Views
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import kh.edu.rupp.ite.eresystem.R
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

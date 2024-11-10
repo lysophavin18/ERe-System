@@ -1,10 +1,11 @@
-package kh.edu.rupp.ite.eresystem
+package kh.edu.rupp.ite.eresystem.Views
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
+import kh.edu.rupp.ite.eresystem.R
 
 class MainActivity : AppCompatActivity() {
 
