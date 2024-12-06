@@ -6,5 +6,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Views.HomeActivity">
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ERe System"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Sign In / Sign Up Toggle -->
+    <LinearLayout
+        android:id="@+id/toggleLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Container for Forms -->
+    <FrameLayout
+        android:id="@+id/formContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/toggleLayout"
+        android:layout_marginTop="16dp" />
+
+    <HorizontalScrollView
+        android:layout_width="454dp"
+        android:layout_height="511dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="93dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </HorizontalScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
