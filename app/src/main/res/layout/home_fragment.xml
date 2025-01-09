@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/classTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12 A - Class of joys"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSubjectItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject Item" />
+
+    <Button
+        android:id="@+id/btnReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report" />
+
+    <Button
+        android:id="@+id/btnAddSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Subject" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <!-- Headers -->
+        <TableRow>
+            <TextView android:layout_weight="1" android:text="Subjects" />
+            <TextView android:layout_weight="1" android:text="Max Score" />
+            <TextView android:layout_weight="1" android:text="Passing Score" />
+        </TableRow>
+
+        <!-- Example Data -->
+        <TableRow>
+            <TextView android:layout_weight="1" android:text="History" />
+            <TextView android:layout_weight="1" android:text="100" />
+            <TextView android:layout_weight="1" android:text="50" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

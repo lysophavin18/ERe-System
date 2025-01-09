@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/studentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KAKA"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <!-- Headers -->
+        <TableRow>
+            <TextView android:layout_weight="1" android:text="Subjects" />
+            <TextView android:layout_weight="1" android:text="Max Score" />
+            <TextView android:layout_weight="1" android:text="Grade" />
+        </TableRow>
+
+        <!-- Example Data -->
+        <TableRow>
+            <TextView android:layout_weight="1" android:text="History" />
+            <TextView android:layout_weight="1" android:text="100" />
+            <TextView android:layout_weight="1" android:text="A" />
+        </TableRow>
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/teacherComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teacher's Comment" />
+
+    <EditText
+        android:id="@+id/parentComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Parent's Comment" />
+
+    <Button
+        android:id="@+id/btnSaveComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+</LinearLayout>
