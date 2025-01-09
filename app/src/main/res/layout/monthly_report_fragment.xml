@@ -6,11 +6,11 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <Spinner
-        android:id="@+id/monthSpinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:entries="@array/months_array" />
+<!--    <Spinner-->
+<!--        android:id="@+id/monthSpinner"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:entries="@array/months_array" />-->
 
     <ListView
         android:id="@+id/studentList"
