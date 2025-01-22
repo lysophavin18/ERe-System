@@ -5,26 +5,83 @@ import com.example.ere2.Components.HeaderProp
 
 class ThisMonthViewModel: ViewModel() {
     val columns = listOf(
-        HeaderProp(label = "Name", fieldName = "name"),
-        HeaderProp(label = "Age", fieldName = "age"),
-        HeaderProp(label = "Email", fieldName = "email")
+        HeaderProp(label = "Subject", fieldName = "subject"),
+        HeaderProp(label = "Score", fieldName = "score"),
+        HeaderProp(label = "Grade", fieldName = "grade")
     )
 
     val data = listOf(
         mapOf(
-            "name" to "John Doe",
-            "age" to "28",
-            "email" to "john.doe@"
+            "subject" to "Mathematics",
+            "score" to "85",
+            "grade" to "A"
         ),
         mapOf(
-            "name" to "Jane Smith",
-            "age" to "34",
-            "email" to "jane.smith@"
+            "subject" to "Khmer Literature",
+            "score" to "90",
+            "grade" to "A"
         ),
         mapOf(
-            "name" to "Alice Johnson",
-            "age" to "22",
-            "email" to "alice.johnson@"
-        )
+            "subject" to "Physics",
+            "score" to "78",
+            "grade" to "B+"
+        ),
+        mapOf(
+            "subject" to "Chemistry",
+            "score" to "82",
+            "grade" to "A-"
+        ),
+        mapOf(
+            "subject" to "Biology",
+            "score" to "88",
+            "grade" to "A"
+        ),
+        mapOf(
+            "subject" to "History",
+            "score" to "75",
+            "grade" to "B"
+        ),
+        mapOf(
+            "subject" to "Chemistry",
+            "score" to "82",
+            "grade" to "A-"
+        ),
+        mapOf(
+            "subject" to "Biology",
+            "score" to "88",
+            "grade" to "A"
+        ),
+        mapOf(
+            "subject" to "History",
+            "score" to "75",
+            "grade" to "B"
+        ),
+        mapOf(
+            "subject" to "Chemistry",
+            "score" to "82",
+            "grade" to "A-"
+        ),
+        mapOf(
+            "subject" to "Biology",
+            "score" to "88",
+            "grade" to "A"
+        ),
+        mapOf(
+            "subject" to "History",
+            "score" to "75",
+            "grade" to "B"
+        ),
+        mapOf(
+            "subject" to "Chemistry",
+            "score" to "82",
+            "grade" to "A-"
+        ),
+        mapOf(
+            "subject" to "Biology",
+            "score" to "88",
+            "grade" to "A"
+        ),
+
     )
+
 }
