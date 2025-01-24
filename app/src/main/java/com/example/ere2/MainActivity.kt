@@ -10,6 +10,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.ere2.Screens.HomeScreen
+import com.example.ere2.Screens.LastMonthsScreen
 import com.example.ere2.Screens.ProfileScreen
 import com.example.ere2.Screens.SupportScreen
 import com.example.ere2.Screens.ThisMonthScreen
@@ -36,6 +37,7 @@ private fun MainActivity.AppNavGraph(navController: NavHostController) {
         composable("thisMonth") { ThisMonthScreen(navController, thisMonthViewModel) }
         composable("profile") { ProfileScreen(navController) }
         composable("supports") { SupportScreen(navController) }
+        composable("lastMonths") { LastMonthsScreen(navController) }
     }
 }
 
